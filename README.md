@@ -26,8 +26,9 @@ t_{yx} & t_{yy}
 \begin{pmatrix} 
 E_x^i \\ 
 E_y^i 
+\end{pmatrix}
+$$
 
 Co-polarization coefficients ($t_{xx}, t_{yy}$): Transmission where the output state is the same as the input.
 Cross-polarization coefficients ($t_{yx}, t_{xy}$): Transmission where the output state is rotated by $90^\circ$
-\end{pmatrix}
-$$
+
