@@ -1,0 +1,23 @@
+# --- CST Studio Suite ---
+
+# Ignore the entire project results folder 
+# (This contains Model, ModelCache, and Result subfolders)
+# If your file is ProjectName.cst, this ignores the folder ProjectName/
+*/Model/
+*/ModelCache/
+*/Result/
+*/Temp/
+
+# Ignore specific large binary and log files
+*.rtp
+*.rtp~
+*.lok
+*.bak
+*.log
+*.pax
+*.user
+
+# If you want to be aggressive and just keep the source:
+# This ignores the folder named after your project entirely
+# Replace 'ProjectName' with your actual filename or use a wildcard
+# [ProjectName]/
