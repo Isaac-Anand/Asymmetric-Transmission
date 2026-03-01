@@ -28,7 +28,13 @@ E_x^i \\
 E_y^i 
 \end{pmatrix}
 $$
+\begin{itemize}
+  \item **Co-polarization coefficients ($t_{xx}, t_{yy}$)**: Transmission where the output state is the same as the input.
 
-Co-polarization coefficients ($t_{xx}, t_{yy}$): Transmission where the output state is the same as the input.
-Cross-polarization coefficients ($t_{yx}, t_{xy}$): Transmission where the output state is rotated by $90^\circ$
+  \item **Cross-polarization coefficients ($t_{yx}, t_{xy}$)**: Transmission where the output state is rotated by $90^\circ$
 
+**Conditions for Asymmetric Transmission**
+
+For a reciprocal system to exhibit AT, the unit cell must introduce anisotropy. The necessary conditions for AT are:
+\begin{itemize}
+  \item 
