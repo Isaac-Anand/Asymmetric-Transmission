@@ -28,6 +28,7 @@ E_x^i \\
 E_y^i 
 \end{pmatrix}
 $$
+
 \begin{itemize}
   \item **Co-polarization coefficients ($t_{xx}, t_{yy}$)**: Transmission where the output state is the same as the input.
 
