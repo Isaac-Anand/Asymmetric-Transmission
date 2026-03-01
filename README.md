@@ -9,4 +9,5 @@ This project explores the design of anisotropic metamaterials (AMMs) that break 
 
 The Jones Matrix FormalismThe response of a general unit cell to incident radiation is described by the complex Jones Matrix, which relates the incident ($E^i$) and transmitted ($E^t$) electric fields
 
-$$\begin{pmatrix} E_x^t \\ E_y^t \end{pmatrix} = T_{lin} \begin{pmatrix} E_x^i \\ E_y^i \end{pmatrix} = \begin{pmatrix} t_{xx} & t_{xy} \\ t_{yx} & t_{yy} \end{pmatrix} \begin{pmatrix} E_x^i \\ E_y^i \end{pmatrix}$$
+[ E_x^t ]   =   [ t_xx  t_xy ]   [ E_x^i ]
+[ E_y^t ]       [ t_yx  t_yy ]   [ E_y^i ]
