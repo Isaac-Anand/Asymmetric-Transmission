@@ -29,13 +29,21 @@ E_y^i
 \end{pmatrix}
 $$
 
-\begin{itemize}
-  \item **Co-polarization coefficients ($t_{xx}, t_{yy}$)**: Transmission where the output state is the same as the input.
+**Co-polarization coefficients ($t_{xx}, t_{yy}$)**: Transmission where the output state is the same as the input.
 
-  \item **Cross-polarization coefficients ($t_{yx}, t_{xy}$)**: Transmission where the output state is rotated by $90^\circ$
+**Cross-polarization coefficients ($t_{yx}, t_{xy}$)**: Transmission where the output state is rotated by $90^\circ$
 
 **Conditions for Asymmetric Transmission**
 
 For a reciprocal system to exhibit AT, the unit cell must introduce anisotropy. The necessary conditions for AT are:
-\begin{itemize}
-  \item 
+
+**Linear Polarization (LP):** $t_{yx} \neq t_{xy}$ while $t_{xx} = t_{yy}$.
+
+**Circular Polarization (CP):** $t_{-+} \neq t_{+-}$ while $t_{++} = t_{--}$
+
+**The AT Parameter ($\Delta$)**
+The efficiency of the asymmetry is quantified by the AT parameter, defined as the difference in cross-polarization transmittances:
+
+LP AT Parameter: $\Delta_{lin} = |t_{yx}|^2 - |t_{xy}|^2$.
+
+CP AT Parameter: $\Delta_{cir} = |t_{-+}|^2 - |t_{+-}|^2$.
