@@ -37,9 +37,9 @@ $$
 
   For a reciprocal system to exhibit AT, the unit cell must introduce anisotropy. The necessary conditions for AT are:
 
-    **Linear Polarization (LP):** $t_{yx} \neq t_{xy}$ while $t_{xx} = t_{yy}$.
+   **Linear Polarization (LP):** $t_{yx} \neq t_{xy}$ while $t_{xx} = t_{yy}$.
 
-    **Circular Polarization (CP):** $t_{-+} \neq t_{+-}$ while $t_{++} = t_{--}$
+   **Circular Polarization (CP):** $t_{-+} \neq t_{+-}$ while $t_{++} = t_{--}$
 
 **THE AT PARAMETER ($\Delta$)**
 
@@ -58,3 +58,13 @@ The core of work and design involved in breaking the mirror symmtery of the unit
   **Anisotropy Engineering:** The unequal lengths of the spiral arms introduce different phase delays for $x$- and $y$-polarized components, which is the catalyst for polarization conversion
 
 High efficiency is often achieved by stacking multiple layers to form a resonant cavity.  These multiple reflections constructively interfere at specific frequencies, significantly boosting the cross-polarization transmission coefficient ($t_{cross}$) toward unity.
+
+**JUSTIFICATION OF RESULTS**
+
+To validate the research findings, the following metrics are used:
+
+ Cross-Polarization Efficiency: We observe a high cross polarization trnasmission coeffecients, but a lower, almost close to zero, co-polarization transmission coeffecients.
+
+ Parametric Study (Spiral Turns): We investgated the effect of the number of turns on the transmission spectra. We observed that as the number of turns increases, new resonances were developed at the lower frequencies.
+
+ Directional Diode-like Effect: By plotting the AT parameter for forward ($+z$) vs. backward ($-z$) propagation, we justify the AT effect. A large gap between these two curves proves the structure acts as a "one-way" transparent window for specific polarizations.
